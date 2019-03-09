@@ -459,7 +459,6 @@ Primary use:
     top:50%;
     right: 0%;
   }
-
   /*---------------------------------------------*/
 
 }
@@ -520,6 +519,9 @@ Primary use:
     top:0%;
     right:0%;
   }
+  .foot{
+    flex-direction:column;
+  }
   /*---------------------------------------------*/
 
 }
@@ -548,6 +550,12 @@ Primary use:
   .icon-position{
     top:0%;
     right:0%;
+  }
+  .foot{
+    flex-direction:column;
+  }
+  #add{
+    display: none;
   }
   /*---------------------------------------------*/
 
@@ -578,6 +586,9 @@ Primary use:
   .icon-position{
     top:0%;
     right:0%;
+  }
+  #add{
+    display: none;
   }
   /*---------------------------------------------*/
 
