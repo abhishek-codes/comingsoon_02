@@ -742,3 +742,26 @@ background: linear-gradient(#400080, transparent), linear-gradient(200deg, #d047
   color:#c3c3c3;
   text-align: right;
 }
+#book{
+  color: white;
+  visibility: hidden;
+  float: left;
+}
+ul li:hover:nth-child(3) a #book {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: relative;
+  z-index: 1;
+  top: -40px;
+  right: 105%; 
+}
+
+ul li:hover:nth-child(3) a:hover #book {
+  visibility: visible;
+}
